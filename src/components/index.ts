@@ -1,0 +1,7 @@
+export { default as Hero } from './Hero.vue'
+export { default as Header } from './Header.vue'
+export { default as About } from './About.vue'
+export { default as Why } from './Why.vue'
+export { default as Contact } from './Contact.vue'
+export { default as NavBar } from './NavBar.vue'
+export { default as Footer } from './Footer.vue'

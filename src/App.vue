@@ -1,5 +1,13 @@
 <template>
-  <router-view />
+  <router-view/>
 </template>
 
-<style></style>
+<script>
+import { defineComponent } from 'vue'
+import AOS from 'aos'
+export default defineComponent({
+  setup() {
+    AOS.init()
+  }
+})
+</script>
